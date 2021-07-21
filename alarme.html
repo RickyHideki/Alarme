@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Alarme Pog</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body onload="Tempo()">
+    <script defer src="script.js"></script>
+    <div id="horas"></div>
+    <div id="contagemRegressiva"></div>
+    <div id="diaSemana"></div>
+    <div id="aulas"></div>
+
+    <form class="textos-horarios">
+       <div class="Texto"> <label> Insira o link a ser aberto </label> <input type="text" id="texto" class="inputs"> </div>
+       <div class="Texto"> <label> Insira o horário </label> <input type="number" min="1" max="23" id="horasValue" class="inputs" placeholder="00"> : <input type="number" min="1" max="59" id="minutosValue" class="inputs" placeholder="00"> : <input type="number" min="1" max="59" id="segundosValue" class="inputs" placeholder="00"></div>
+    </form>
+    <div id="texto2"></div>
+</body>
+</html>
